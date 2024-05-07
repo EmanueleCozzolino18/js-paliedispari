@@ -12,4 +12,12 @@ console.log(paliUser)
 console.log(paliCheck)
 
 
+//Funzione 
+function paliSwap(parola) {
+    let swapPali = "";
+    for (let i = parola.length - 1; i >= 0; i--) {
+        swapPali += parola[i]
+    }
+    return swapPali;
+}
 
