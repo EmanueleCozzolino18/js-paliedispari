@@ -6,11 +6,16 @@ console.log("Lo script è parito correttamente");
 
 //Registriamo la parola del utente
 let paliUser = prompt("Inserisci una parola");
-let paliCheck = (paliUser)
+let paliCheck = paliSwap(paliUser)
 
-console.log(paliUser)
-console.log(paliCheck)
+//Condizione per verificare se la parola è palindroma
+if (paliUser == paliCheck) {
+    console.log("La parola inserita è plindroma: " + paliCheck);
+}
 
+else {
+}
+console.log("La parola inserita non è palindroma: " + paliCheck);
 
 //Funzione 
 function paliSwap(parola) {
